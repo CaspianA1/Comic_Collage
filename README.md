@@ -5,3 +5,5 @@ Note: an installation file is included. Run it in terminal to install.
 
 ### Here's a result:
 ![Preview](https://i.imgur.com/8TuKmKQ.png)
+
+This has only been tested to work on colored Calvin and Hobbes book pages. Other comics are not guranteed to work.
