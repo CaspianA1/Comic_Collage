@@ -310,7 +310,10 @@ def choose_image():
 
 		dir_path = os.path.dirname(os.path.realpath(__file__))
 		all_collages = os.listdir(f"{dir_path}/Collage/")  # may not work later when built
-		all_collages.remove(".DS_Store")
+		try:
+			all_collages.remove(".DS_Store")
+		except ValueError:
+			pass
 
 		index_bindings = {}
 		for collage_name in all_collages:
